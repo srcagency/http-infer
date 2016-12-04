@@ -1,0 +1,13 @@
+{
+	"name": "http-infer",
+	"description": "Convert the returns of a route to a http response",
+	"version": "0.0.1",
+	"repository": "srcagency/http-infer",
+	"scripts": {
+		"test": "node test"
+	},
+	"devDependencies": {
+		"tape": "^4.6.3"
+	},
+	"license": "MIT"
+}
