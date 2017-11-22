@@ -4,7 +4,6 @@ Convert a simple return value from a route function into a description of a
 http response. The response is of the format accepted by
 [http-tell](https://github.com/srcagency/http-tell).
 
-
 ```js
 infer(value) -> {
 	// headers
