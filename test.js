@@ -10,27 +10,27 @@ test(function( t ){
 	t.deepEqual(infer(true), { code: 200, json: true });
 
 	t.deepEqual(infer({
-		age: 25,
+		age: 25
 	}), {
 		code: 200,
 		json: {
-			age: 25,
-		},
+			age: 25
+		}
 	});
 
 	t.deepEqual(infer({
 		code: 400,
-		message: 'Invalid',
+		message: 'Invalid'
 	}), {
 		code: 400,
-		message: 'Invalid',
+		message: 'Invalid'
 	});
 
 	var ps = pull.values([ 'a', 'b', 'c' ]);
 
 	t.deepEqual(infer(ps), {
 		code: 200,
-		json: ps,
+		json: ps
 	});
 
 	t.end();

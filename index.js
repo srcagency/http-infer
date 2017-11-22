@@ -13,6 +13,6 @@ function infer( result ){
 
 	return {
 		code: 200,
-		json: result,
+		json: result
 	};
 }
