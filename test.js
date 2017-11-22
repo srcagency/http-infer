@@ -4,7 +4,7 @@ const test = require('tape');
 const pull = require('pull-stream');
 const infer = require('./');
 
-test(function( t ){
+test(function(t) {
 	t.deepEqual(infer(undefined), { code: 204 });
 	t.deepEqual(infer(null), { code: 200, json: null });
 	t.deepEqual(infer(true), { code: 200, json: true });

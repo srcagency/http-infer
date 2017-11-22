@@ -4,7 +4,7 @@ const a204 = { code: 204 };
 
 module.exports = infer;
 
-function infer( result ){
+function infer(result) {
 	if (result === undefined)
 		return a204;
 
